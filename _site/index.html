@@ -16,7 +16,7 @@
     </div>
     <script>
         const getWord = async () => {
-            const textBlock = document.getElementById("random-word-p")
+            const textBlock = document.getElementById("random-text-p")
             try {
                 const response = await fetch('/.netlify/functions/text')
                 if (!response.ok) {
